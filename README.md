@@ -92,13 +92,13 @@ uvicorn app.main:app --host 0.0.0.0 --port 8001 --reload
 
 **Start Frontend:**
 ```bash
-streamlit run frontend.py --server.port 8501
+streamlit run frontend.py --server.port 8502
 ```
 
 ## 🌐 Access Points
 
 - **Backend API**: http://localhost:8001
-- **Frontend Interface**: http://localhost:8501
+- **Frontend Interface**: http://localhost:8502
 - **API Documentation**: http://localhost:8001/docs
 - **Admin Dashboard**: http://localhost:8001/admin
 
@@ -163,7 +163,7 @@ Key configuration options in `app/core/config.py`:
 Test the API endpoints using:
 
 1. **Swagger UI**: http://localhost:8001/docs
-2. **Frontend Interface**: http://localhost:8501
+2. **Frontend Interface**: http://localhost:8502
 3. **cURL commands**:
    ```bash
    # Create user
